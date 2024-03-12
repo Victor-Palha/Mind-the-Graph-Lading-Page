@@ -11,10 +11,10 @@ export function ButtonLink({backgroundColor = "mgPurpleLight", content, target =
         <a href={target} 
             className={
                 backgroundColor == "transparent" ? 
-                "flex items-center max-w-[300px] border-[1px] border-white px-7 py-3 rounded-3xl" :
-                `flex items-center max-w-[300px] bg-mgPurpleLight px-7 py-3 rounded-3xl`
+                "flex items-center max-w-[300px] border-[1px] border-white px-7 py-3 rounded-3xl transition hover:bg-white group hover:shadow-lg" :
+                `flex items-center max-w-[300px] bg-mgPurpleLight px-7 py-3 rounded-3xl hover:bg-mgPurpleDark transition hover:shadow-lg`
         }>
-            <span className="w-full text-white font-bold text-center">
+            <span className="w-full text-white font-bold text-center group-hover:text-mgBlack">
                 {content}
             </span>
         </a>
