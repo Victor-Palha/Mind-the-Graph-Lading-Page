@@ -1,0 +1,10 @@
+<svg id="bt__sign_up" data-name="bt _sign_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="40" viewBox="0 0 132 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6119ff"/>
+      <stop offset="1" stop-color="#7833ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="Retângulo_2" data-name="Retângulo 2" width="132" height="40" rx="20" fill="url(#linear-gradient)"/>
+  <text id="Sign_up_free" data-name="Sign up free" transform="translate(24 26)" fill="#fff" font-size="16" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">Sign up free</tspan></text>
+</svg>

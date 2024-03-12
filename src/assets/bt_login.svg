@@ -1,0 +1,7 @@
+<svg id="bt_login" xmlns="http://www.w3.org/2000/svg" width="87" height="40" viewBox="0 0 87 40">
+  <g id="Retângulo_2" data-name="Retângulo 2" fill="none" stroke="#fff" stroke-width="1">
+    <rect width="87" height="40" rx="20" stroke="none"/>
+    <rect x="0.5" y="0.5" width="86" height="39" rx="19.5" fill="none"/>
+  </g>
+  <text id="Login" transform="translate(24 26)" fill="#fff" font-size="16" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">Login</tspan></text>
+</svg>
