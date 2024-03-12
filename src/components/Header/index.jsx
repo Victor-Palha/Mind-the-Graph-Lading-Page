@@ -12,8 +12,8 @@ export function Header(){
                 <a href="#" className="text-base font-bold">Pricing</a>
                 <a href="#" className="text-base font-bold">Blog</a>
                 <a href="#" className="text-base font-bold">Jobs</a>
-                <ButtonLink content="Login"/>
-                <ButtonLink content="Sign up free" backgroundColor="mgPurpleLight"/>
+                <ButtonLink content="Login" backgroundColor="transparent"/>
+                <ButtonLink content="Sign up free"/>
             </nav>
         </header>
     )
