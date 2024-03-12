@@ -9,9 +9,15 @@ import { ButtonLink } from '../ButtonLink'
 
 export function ScienceSimplicityCreator(){
     return (
-        <section className='mt-16 rounded-2xl bg-mgPurpleDark mx-40 px-32 py-20 text-center text-white mb-32'>
-            <h2 className='font-bold text-4xl mb-14'>Create effective science figures in minutes</h2>
-            <p className='text-lg mb-24'>We built Mind the Graph for simplicity. The platform is easy to use and just about anybody can use it to create great infographics and presentations - from beginners to professionals, individuals to groups and small labs to large organisations</p>
+        <section 
+            className="
+                mt-16 rounded-2xl bg-mgPurpleDark shadow-lg mx-2 px-2 py-20 text-center text-white mb-32
+                md:mx-20 md:rounded-lg md:px-20
+                lg:mx-40 lg:px-32
+            "
+        >
+            <h2 className='font-bold text-2xl md:text-4xl mb-14'>Create effective science figures in minutes</h2>
+            <p className='text-base md:text-lg mb-24'>We built Mind the Graph for simplicity. The platform is easy to use and just about anybody can use it to create great infographics and presentations - from beginners to professionals, individuals to groups and small labs to large organisations</p>
             <div className='flex justify-center gap-28 flex-wrap'>
             <InfoIcon image={IconDrag} title="Drag and Drop" description="Easily select and manage illustrations, text and templates"/>
             <InfoIcon image={IconPremade} title="Pre-Made Resources" description="Don’t waste time! Use our templates and just customize colours, text etc"/>
