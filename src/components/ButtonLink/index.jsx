@@ -6,7 +6,6 @@
 
 
 export function ButtonLink({backgroundColor = "mgPurpleLight", content, target = "#"}){
-    console.log(backgroundColor)
     return (
         <a href={target} 
             className={

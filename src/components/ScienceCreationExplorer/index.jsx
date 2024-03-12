@@ -20,7 +20,7 @@ export function ScienceCreationExplorer(){
                 <img
                     className='transform -translate-y-[-30px] transition md:hover:scale-110 hover:shadow-lg w-[80%] md:w-auto'
                     src={ExampleImage} 
-                    alt="" 
+                    alt="Example from a graph created with mind the graph application" 
                 />
             </div>
         </main>
