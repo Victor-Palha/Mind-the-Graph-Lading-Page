@@ -12,7 +12,6 @@ export function SideBar({sideMenu}){
             z-10
             ${sideMenu ? 'right-0 w-[300px] absolute h-screen top-[7.5rem]' : 'right-[-300px] w-0 absolute h-0'}
             pl-[40px] pr-[30px]
-            bg-transparent
             backdrop-blur-xl
             transition-all
             duration-700`
